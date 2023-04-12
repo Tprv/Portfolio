@@ -1,0 +1,496 @@
+* {
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+header,
+footer{
+    background-color: white;
+    padding: 20px;
+}
+.logo-accueil-header:hover{
+opacity: 0.5;
+}
+.logo-accueil-footer:hover{
+    opacity: 0.5;
+}
+.icone-mail:hover{
+opacity: 0.5;
+}
+.icone-linkedin:hover{
+opacity: 0.5;
+}
+nav a {
+    margin-left: 30px;
+  }
+footer,
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+body{
+    background-image: url(images/fondglitch.jpg);
+    background-size: cover;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Manrope', sans-serif;
+}
+em{
+   color: #5d9fff;
+   font-style: normal;
+}
+.bouton-à-propos{
+    background-color: black;
+    border-radius: 50px;
+    padding: 15px;
+    transition: 0.5s;
+}
+.bouton-portfolio{
+    background-color: black;
+    border-radius: 50px;
+    padding: 15px;
+    transition: 0.5s;
+}
+.bouton-cv{
+    background-color: black;
+    border-radius: 50px;
+    padding: 15px;
+    transition: 0.5s;
+}
+.bouton-à-propos:hover{
+    padding: 30px;
+    transition: 0.5s;
+}
+.bouton-portfolio:hover{
+    padding: 30px;
+    transition: 0.5s;
+}
+.bouton-cv:hover{
+    padding: 30px;
+    transition: 0.5s;
+}
+.à-propos-contenu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 150px auto;
+    max-width: 1000px;
+}
+.à-propos-contenu h1{
+    font-size: 3.5em;
+    font-family: 'Manrope', sans-serif;
+    text-align: justify;
+    color: #5d9fff;
+    padding: 50px;
+}
+.à-propos-contenu h3{
+    font-size: 2.0em;
+    color: #5d9fff;
+    text-align: justify;
+    font-family: 'Manrope', sans-serif;
+    margin-left: 55px;
+}
+
+.à-propos-contenu p{
+    font-family:'Open Sans', sans-serif;
+    text-align: justify;
+    padding: 50px;
+    font-size: 1.5em;
+    color: black;
+}
+.à-propos-contenu div{
+    margin-top: 150px;
+}
+.contenu-texte{
+    background-color: white;
+    border-radius: 50px;
+}
+.icones-compétences{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 30px;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+.icone-photoshop{
+    display: flex;
+    background-color: white;
+    border-radius: 30px;
+    width: 20%;
+    height: 100px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    gap: 10px;
+}
+.icone-camera{
+    display: flex;
+    background-color: white;
+    border-radius: 30px;
+    width: 20%;
+    height: 100px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    gap: 10px;
+}
+.icone-html-css{
+    display: flex;
+    background-color: white;
+    border-radius: 30px;
+    width: 25%;
+    height: 100px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    gap: 10px;
+}
+.icone-javascript{
+    display: flex;
+    background-color: white;
+    border-radius: 30px;
+    width: 25%;
+    height: 100px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    gap: 10px;
+}
+progress{
+    width: 100px;
+}
+  .projet-portfolio h1 {
+    font-family:'Manrope', sans-serif;
+    color: #5d9fff;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 2.0em;
+  }
+  
+  .contenu-cv h1{
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-top: 200px;
+    border-top: 5px solid white;
+    border-radius: 5px;
+  }
+  .personalité{
+    display: flex;
+    padding: 60px;
+    text-align: justify;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 200px;
+    margin-left: 700px;
+    width: 20%;
+    background-color: white;
+    font-family:'Open Sans', sans-serif;
+     }
+    .langues{
+      display: flex;
+    padding: 70px;
+    padding-right: 100px;
+    text-align: justify;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 100px;
+    margin-left: 700px;
+    width: 20%;
+    margin-bottom: 100px;
+    background-color: white;
+    font-family:'Open Sans', sans-serif;
+    gap: 20px;
+    }
+  
+    .experience-parcours{
+    display: flex;
+    padding: 60px;
+    align-items:center;
+    text-align: justify;
+    margin-bottom: 100px;
+    margin-left: 740px;
+    width: 50%;
+    background-color: white;
+    border-radius: 20px;
+    font-family:'Open Sans', sans-serif;
+     }
+    .experience-professionnelle{
+    display: flex;
+    padding: 60px;
+    align-items: center;
+    text-align: justify;
+    width: 45%;
+    margin-left: 80px;
+    margin-bottom: 90px;
+    background-color: white;
+    border-radius: 20px;
+    font-family:'Open Sans', sans-serif;
+    }
+    .loisirs{
+      display: flex;
+      gap: 20px;
+      padding: 60px;
+      align-items: center;
+      width: 45%;
+      margin-bottom: 100px;
+      margin-left: 450px;
+      background-color: white;
+      border-radius: 20px;
+      justify-content: space-evenly;
+      text-align: center;
+      font-family:"Manrope", sans-serif ;
+
+    }
+    .resaux-contact{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+    .ligne-separatrice{
+        margin-right: 200px;
+    margin-left: 200px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    border-top: 5px solid white;
+    border-radius: 5px;
+    }
+    .grid-photo-portfolio{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 300px 300px;
+        gap: 20px;
+        padding: 200px;
+       
+    }
+    .grid-photo-portfolio img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .projet-portfolio{
+        background-color: white;
+        margin-left: 100px;
+        margin-right: 100px;
+        border-radius: 50px;
+    }
+    .lien-conteneur-photo {
+        position: relative;
+        transition: 0.5s;
+      }
+      
+      .photo-hover{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5em;
+        color: black;
+        display: none;
+      }
+      .lien-conteneur-photo:hover .photo-hover {
+      display: flex;
+      }
+      .lien-conteneur-photo:hover{
+        padding: 50px;
+        transition: 0.5s;
+      }
+      @media screen and (max-width: 996px) {
+        header nav {
+          flex-direction: column;
+          padding: 20px;
+          gap: 50px;
+        }
+        header{
+            width: 150%;
+            padding: 60px;
+        }
+        footer{
+            width: 150%;
+            padding: 60px;
+        }
+        .logo-accueil-footer{
+            height: 150px;
+        }
+        .resaux-contact{
+            display: flex;
+            margin-right: 100px;
+          
+        }
+        .icone-mail{
+            height: 80px;
+        }
+        .icone-linkedin{
+            height: 80px;
+        }
+        .logo-accueil-header{
+           margin-right: 270px;
+           height: 300%;
+           
+        }
+        .bouton-nav{
+            margin-top:200px;
+            margin-right: 80px;
+            font-size: 3.0em;
+            border-radius: 20px;
+        }
+        .bouton-à-propos,
+        .bouton-portfolio,
+        .bouton-cv{
+            padding: 35px;
+        }
+        .contenu-texte{
+            width: 100%;
+            margin-left: 610px;
+            padding: 200px;
+            
+        }
+        .contenu-texte h1{
+            font-size: 8.0em;
+        }
+        .contenu-texte h3{
+            font-size: 4.5em;
+            
+        }
+        .contenu-texte p{
+            margin-top: 50px;
+            font-size: 3.5em;
+            text-align: justify;
+        }
+        .icones-compétences{
+            width: 100%;
+            margin-left: 400px;
+            margin-bottom: 50px;
+            padding: 80px;
+        }
+        .ligne-separatrice{
+            margin-left: 250px;
+            width: 100%;
+            padding-top: 100px;
+        }
+        .projet-portfolio{
+         width: 150%;
+         margin: 20px;
+         margin-left: 60px;
+        }
+        .grid-photo-portfolio{
+            grid-template-columns: 1fr;
+            grid-template-rows: 1000px 1000px 1000px 1000px;
+            gap: 20px;
+        }
+        .cv-ancre{
+           margin-top: 500px;
+           margin-bottom: 500px;
+           background-color: brown;
+        }
+      .personalité{
+        width: 100%;
+        padding: 80px;
+        margin: 150px auto;
+        margin-left: 200px;
+        font-size: 3.0em;
+        justify-content: center;
+        gap: 100px;
+    }
+    .langues{
+        width: 50%;
+        height: 10%;
+        padding-right: 200px;
+        margin: 150px auto;
+        margin-left: 200px;
+        font-size: 3.0em;
+        gap: 60px;
+        text-align: center;
+    }
+    .langues h2{
+        text-align: center;
+    }
+    .langue-anglais{
+        margin-top: 100px;
+    }
+    .projet-portfolio h1{
+        font-size: 5.0em;
+    }
+    .icone-photoshop{
+        padding-bottom: 90px;
+        padding-right: 180px;
+        height: 150px;
+    }
+    .icone-camera{
+        padding-bottom: 90px;
+        padding-right: 111px;
+        height: 150px;
+        width: 150px;
+    }
+    .icone-html-css{
+        padding-bottom: 90px;
+        padding-right: 260px;
+        height: 180px;
+        width: 150px;
+    }
+    .icone-javascript{
+        padding-bottom: 111px;
+        padding-right: 180px;
+        height: 160px;
+        width: 100px;
+    }
+    progress{
+        display: none;
+    }
+    .icones-compétences{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 300px 300px;
+    }
+    .icones-compétences{
+        margin-left: 620px;
+    }
+    .icones-compétences img{
+      height: 150%;
+    }
+    progress{
+        margin-top: 30px;
+        justify-content: center;
+        padding: 50px;
+    }
+    .experience-parcours{
+        width: 120%;
+        padding: 100px;
+        margin: 150px auto;
+        margin-left: 70px;
+        font-size: 3.0em;
+        gap: 60px;
+        text-align: start;
+    }
+    .experience-professionnelle{
+        width: 120%;
+        padding: 100px;
+        margin: 150px auto;
+        margin-left: 70px;
+        font-size: 3.0em;
+        gap: 60px;
+        text-align: start;
+    }
+    .loisirs{
+        width: 100%;
+        padding: 80px;
+        margin: 150px auto;
+        margin-left: 200px;
+        font-size: 3.0em;
+        justify-content: center;
+        gap: 80px;
+    }
+}
