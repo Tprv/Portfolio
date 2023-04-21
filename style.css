@@ -1,0 +1,378 @@
+html{
+    scroll-behavior: smooth;
+    width: 100vw;
+    height: 100vh;
+}
+body{
+    background-image: url(images/fondglitch.jpg);
+    background-position: center;
+    background-size:cover;
+}
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+header,
+footer{
+    height: 100vh;
+    width: 100vw;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+.lien-reseaux{
+    position: absolute;
+    top: 4500px;
+    left: 0px;
+    display: flex;
+    background-color: #1b1b1bc7;
+    width: 100%;
+    padding: 80px;
+    flex-direction: row;
+    align-items: center;
+}
+.icone-mail{
+    position: absolute;
+    top: 75px;
+    width: 40px;
+    left: 800px;
+    transition: 0.5s;
+}
+.icone-linkedin{
+    position: absolute;
+    top: 70px;
+    left: 1040px;
+    transition: 0.5s;
+}
+.icone-mail:hover{
+    opacity: 0.5;
+    transition: 0.5s;
+}
+.icone-linkedin:hover{
+    opacity: 0.5;
+    transition: 0.5s;
+}
+footer p{ 
+    display: flex;
+    position: absolute;
+    top: 4800px;
+    left: 850px;
+    color: white;
+}
+footer h3{
+    color: white;
+    font-size: 2.0em;
+    position: absolute;
+    top: 4300px;
+    left: 870px;
+}
+.avatar-accueil:hover{
+    opacity: 0.5;
+    transition: 0.5s;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+   
+}
+
+.navbar{ 
+    align-self: baseline;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    padding: 20px;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.083);
+    backdrop-filter: blur(4px);
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.navbar a:hover{
+    color: royalblue;
+    transition: 0.4s;
+}
+
+.navbar a{
+    font-size: 2.0em;
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.5s;
+}
+.navbar .avatar-accueil{
+    margin-left: 30px;
+    transition: 0.5s;
+}
+.navbar .liens-nav ul{
+    display: flex;
+}
+.navbar .liens-nav ul li{
+    margin: 0 80px;
+}
+.navbar .menu-hamburger{
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    width: 35px;
+}
+
+.contenu-texte{
+    position:absolute;
+    top: 500px;
+    left: 400px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 80px;
+}
+.contenu-texte h1{
+    font-size: 2.0em;
+}
+.contenu-texte h3{
+    position: absolute;
+    top: -250px;
+    left: 0;
+}
+.contenu-texte p{
+    font-size: 1.2em;
+    margin-top: 50px;
+}
+.icones-compétences{
+    position: absolute;    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+    top: 1300px;
+    left: 120px;
+}
+.icone-photoshop{
+    display: flex;
+    background-color: white;
+    border-radius: 5px;
+    width: 11%;
+    height: 100px;
+    padding: 20px;
+   
+}
+.icone-camera{
+    display: flex;
+    background-color: white;
+    border-radius: 5px;
+    width: 10%;
+    height: 100px;
+    padding: 20px;
+}
+.icone-html-css{
+    display: flex;
+    background-color: white;
+    border-radius: 5px;
+    width: 13%;
+    height: 100px;
+    padding: 20px;
+    
+}
+
+.icone-javascript{
+    display: flex;
+    background-color: white;
+    border-radius: 5px;
+    width: 10%;
+    height: 100px;
+    padding: 20px;
+    }
+progress{
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+    width: 50%;
+}
+.grid-photo-portfolio{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 400px 400px;
+    gap: 20px;
+    padding: 200px;
+   
+}
+.grid-photo-portfolio img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.projet-portfolio{
+    background-color: #1b1b1bc7;
+    position: absolute;
+    width: 100%;
+    top: 2265px;
+    
+}
+.projet-portfolio h1{
+    position: absolute;
+    top: -230px;
+    text-align: center;
+    color: royalblue;
+    font-size: 2.0em;
+    font-family: 'Montserrat', sans-serif;
+}
+.lien-conteneur-photo {
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .lien-conteneur-photo:hover .photo-hover {
+  display: flex;
+  }
+  .lien-conteneur-photo:hover{
+    padding: 50px;
+    transition: 0.5s;
+  }
+ 
+ .mobile-menu{
+    margin-left: 0;
+}
+
+
+
+
+    @media screen and (max-width: 900px) {
+
+        header,
+        footer{
+            left: 0;
+            width: 100%;
+        }
+
+        footer h3{
+            left: 0;   
+            position: absolute;
+            top: 4500px;
+            margin-left: 145px;
+           }
+        footer p{
+            left: 0;
+            margin-left: 130px;
+        }
+    .navbar{
+        padding: 0;
+    }
+
+    .navbar .avatar-accueil{
+        position: absolute;
+        top: 40px;
+        left: 0px;
+    }
+
+    .navbar .menu-hamburger{
+        display: block;
+       
+    }
+    .liens-nav{
+        top: 0;
+        left: 0;
+        position: absolute;
+        background-color: rgba(255, 255, 255, 0.572);
+        backdrop-filter: blur(7px);
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -100%;
+        transition: all 0.5s ease;
+    }
+
+    .liens-nav.mobile-menu{
+        margin-left: 0;
+    }
+    
+    .liens-nav ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar .liens-nav ul li{
+        margin: 25px 0;
+        font-size: 1.2em;
+    }
+
+
+    .à-propos-contenu{
+        left: 0;
+
+    }
+    .contenu-texte{
+        left: 0;
+
+      
+    }
+
+    .contenu-texte p{
+        text-align: left;
+        padding: 0;
+    }
+
+
+    .contenu-texte h3{
+        left: 0;
+    }
+    .icones-compétences{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        margin-left: 80px;
+        left: 0;
+        width: 100%;
+    }
+
+
+    .projet-portfolio{
+        left: 0;
+    }
+
+    .grid-photo-portfolio{
+        grid-template-columns: 1fr;
+        grid-template-rows: 500px 500px 500px 500px;
+        padding: 10px;
+    }
+
+    .projet-portfolio h1{
+        left: 0;
+    }
+
+    .lien-reseaux{
+        width: 100%;
+        left: 0;
+    }
+
+    .icone-photoshop{
+        width: 50%;
+    }
+    .icone-html-css{
+        width: 50%;
+    }
+    .icone-javascript{
+        width: 50%;
+    }
+    .icone-camera{
+        width: 50%;
+    }
+    .icone-mail{
+        left: 0;
+        margin-left: 80px;
+    }
+
+    .icone-linkedin{
+        left: 0;
+        margin-left: 300px;
+    }
+ }
